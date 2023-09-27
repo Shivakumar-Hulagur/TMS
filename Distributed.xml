@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test thread-count="2" parallel="tests" name="TestRunner1">
+    <classes>
+      <class name="com.baseclassscripts.IT_Enquiry_03_Test"/>
+      <class name="com.baseclassscripts.TMS_AdminModel_ST_001_Test"/>
+      <class name="com.baseclassscripts.ST_03_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="2" parallel="tests" name="TestRunner2">
+    <classes>
+      <class name="com.baseclassscripts.TMS_AdminModel_ST_006_Test"/>
+      <class name="com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test"/>
+      <class name="com.baseclassscripts.SMOKE_PACKAGE_09_Test"/>
+      <class name="com.baseclassscripts.Manage_Bookings_2_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-25T23:15:10 IST" name="Surefire suite" finished-at="2023-09-25T23:15:10 IST" duration-ms="61">
+    <groups>
+    </groups>
+    <test started-at="2023-09-25T23:15:10 IST" name="Surefire test" finished-at="2023-09-25T23:15:10 IST" duration-ms="61">
+      <class name="maven.MavenPractice">
+        <test-method signature="sampleTest1()[pri:0, instance:maven.MavenPractice@4386f16]" started-at="2023-09-25T23:15:10 IST" name="sampleTest1" finished-at="2023-09-25T23:15:10 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest1 -->
+        <test-method signature="sampleTest2()[pri:0, instance:maven.MavenPractice@4386f16]" started-at="2023-09-25T23:15:10 IST" name="sampleTest2" finished-at="2023-09-25T23:15:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest2 -->
+      </class> <!-- maven.MavenPractice -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

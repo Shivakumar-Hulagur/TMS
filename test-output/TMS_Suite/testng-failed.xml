@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TMS_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.tms_testng.TMS_AdminModel_ST_006_Test">
+        <methods>
+          <include name="tms_Admin_Model_St_Test"/>
+        </methods>
+      </class> <!-- com.tms_testng.TMS_AdminModel_ST_006_Test -->
+      <class name="com.tms_testng.SMOKE_PACKAGE_09_Test">
+        <methods>
+          <include name="smoke_Package_Test"/>
+        </methods>
+      </class> <!-- com.tms_testng.SMOKE_PACKAGE_09_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TMS_Suite] -->

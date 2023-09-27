@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test name="TestRunner1">
+	  <parameter name="BROWSER" value="chrome"></parameter>
+    <classes>
+      <class name="com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="TestRunner2">
+	  <parameter name="BROWSER" value="firefox"></parameter>
+    <classes>
+      <class name="com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
